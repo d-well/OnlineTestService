@@ -1,0 +1,23 @@
+****  Add Questions JSON (POST) ****
+
+{
+    "createdBy": " ",
+    "question": " ",
+    "options": {
+        "optionOne":" ",
+        "optionTwo":" ",
+        "optionThree":" ",
+        "optionFour":" ",
+        "correctAnswer":" "
+	}
+}
+
+
+****  Get all questions by Author/CreatedBy (GET)****
+http://localhost:8200/getAllQuestions/{CreatedBy}
+
+****  delete Question by ID (GET)****
+http://localhost:8200/deleteQuestionById/{id}
+
+
+
